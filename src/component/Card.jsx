@@ -9,7 +9,7 @@ export function Card() {
         <div className='card'>
             <div className='card_img'>
                 <figure>
-                    <img src='https://api.docred.com/cms/images/403/feed' alt='newsTheme' height='90px' width='90px' />
+                    <img className='img' src='https://res.cloudinary.com/docred/image/upload/t_feed/Imagen_de_portada_comprimida_8997198f09.jpg' alt='newsTheme' />
                 </figure> 
             </div>
             <div className='card_info'>

@@ -5,13 +5,14 @@
     justify-content: center;
     padding: 2em;
     margin: auto;
+    width: 100vw;
     &.main .card{
-        margin-left: 1em;
+        margin: 1em;
         display: flex;
         align-items: stretch;
         flex-direction: row;
     }
     &.main .decoco{
-        margin: 4em;
+        margin: 2em;
     }
 }

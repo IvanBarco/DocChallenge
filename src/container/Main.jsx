@@ -1,16 +1,13 @@
 import React from 'react';
 import '../Styles/sass/Main.scss';
-import { Card } from '../component/Card';
+import { Aside } from '../component/Aside';
 import { Decoco } from '../component/Decoco';
 
 export function Main() {
     return (
         <div className='main'>
             <Decoco />
-            <aside>
-                <Card />
-                <Card />
-            </aside>
+            <Aside />
         </div>
     )
 }

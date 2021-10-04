@@ -1,20 +1,20 @@
 @import '../var.scss';
 .card{
-    border: 2px solid black ;
-    border-radius: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
     background-color: $white-letters;
     max-width: 500px;
     max-height: 400px;
-    padding: 1rem;
-    margin: .5em auto .5em;
+    padding: 0.5rem;
+    margin: auto;
     width: 400px;
     height: 220px;
-        &.decovi{
+        .decovi{
             margin: 0;
         }
-        &.card_img{
-            max-width: 110px;
-            max-height: 80px;
+        .img{
+            width: 8em;
+            height: 10em;
             object-fit: contain;
-        }
+      }
 }

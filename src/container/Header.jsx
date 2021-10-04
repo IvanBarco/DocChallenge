@@ -22,7 +22,7 @@ export function Header() {
                 <button className='BellButton'>
                     <VscBellDot />
                 </button>
-                <img className='menu_img' src='../assets/IvanBarcoPicture.jpg' alt='profilePhoto' /><AiOutlineDown />
+                <img className='menu_img' src='https://www.markuptag.com/images/user-img-3.jpg' alt='profilePhoto' /><AiOutlineDown />
                 <button className='FillButton'>
                     <AiFillSetting />
                 </ button>

@@ -5,19 +5,22 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-        &.menuButton{
+        .menuButton{
             margin: 1em 2em 1em 2em;
         }
-        &.menu_img{
+        .menu_img{
             border-radius: 50%;
-            padding: 10px;
+            padding: 0.5rem;
             box-sizing: border-box;
-            max-width: 128px;
+            max-width: 50px;
         }
-        &.search{
-            border-bottom-left-radius:3em ;
+        .search{
+            border: none ;
+            border-radius: 0 0 0.5em 0;
+            margin-left: 0.5em;
+            margin-right: 4.5em;
         }
-        &.header_imgLogo{
+        .header_imgLogo{
             background-position: relative;
         }
 }
