@@ -1,0 +1,17 @@
+@import '../var.scss';
+.main{
+    background: $second-color;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    margin: auto;
+    &.main .card{
+        margin-left: 1em;
+        display: flex;
+        align-items: stretch;
+        flex-direction: row;
+    }
+    &.main .decoco{
+        margin: 4em;
+    }
+}

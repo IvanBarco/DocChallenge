@@ -1,0 +1,21 @@
+@import '../var.scss';
+.footer{
+    background-color: $white-letters;
+    background: $first-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        &.footer h5{
+            color: $white-letters;
+        }
+        &.footer_img{
+            background-position: relative;
+        }
+        &.footer a{
+            text-decoration: none;
+            color: $white-letters;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+}

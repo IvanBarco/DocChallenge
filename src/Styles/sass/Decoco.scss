@@ -1,0 +1,14 @@
+@import '../var.scss';
+.decoco{
+    border: 2px solid black ;
+    border-radius: 20px;
+    background-color: $white-letters;
+    padding: 1rem;
+    margin: .5em auto .5em;
+        &.decoco_foo{
+            border: 2px solid rgb(42, 96, 243) ;
+            border-radius: 40px;
+            padding: 1rem;
+            margin: .5em auto .5em;
+        }
+}
