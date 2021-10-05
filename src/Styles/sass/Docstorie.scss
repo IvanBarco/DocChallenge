@@ -1,0 +1,53 @@
+@import '../var.scss';
+.docstorie{
+    width: auto;
+    .doc-title{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .doc-title button{
+        background-color:$thirt-color ;
+        border-radius: 1em 0 1em 0;
+        color:$white-letters;
+        height: 50px;
+        width: 100px;
+        font-weight: bold;
+    }
+    .doc-news{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .doc-tag1{
+        border-radius: 4px;
+        background-color: $gray;
+        color:$first-color;
+        font-weight: bold;
+        height: 90px;
+        width: 150px;
+        margin: 0 2em;
+    }
+    .doc-tag2{
+        border-radius: 4px;
+        background-color: $gray;
+        color:$first-color;
+        font-weight: bold;
+        height: 90px;
+        width: 150px;
+        margin: 0 2em;
+    }
+    .doc-tag3{
+        border-radius: 4px;
+        background-color: $gray;
+        color:$first-color;
+        font-weight: bold;
+        height: 90px;
+        width: 150px;
+        margin: 0 2em;
+    }
+    .tags{
+        margin-bottom: 3em;
+    }
+}
