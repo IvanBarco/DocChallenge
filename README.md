@@ -6,7 +6,7 @@ if you don't have acces, let me know on my twitter: https://twitter.com/ivanbarc
 
 In the project directory, you can run:
 
-### `npm run start`
+### `npm run start` on git from your terminal or clicking in code/deploy Github pages.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
