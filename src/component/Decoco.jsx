@@ -9,7 +9,7 @@ import { Docstorie } from './Docstorie';
 export function Decoco() {
     return (
         <div className='decoco'>
-             <img src= 'https://res.cloudinary.com/docred/image/upload/t_feed/FDA_aprueba_tratamiento_para_ALZHEIMER_6c31532745.jpg' alt='imagen main' />
+             <img className='decoco_img' src= 'https://res.cloudinary.com/docred/image/upload/t_feed/FDA_aprueba_tratamiento_para_ALZHEIMER_6c31532745.jpg' alt='imagen main' />
            <Docstorie /> 
            <p className='paragraph'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aut a voluptates alias sint sed esse<br /> consequuntur itaque. Mollitia nobis ex culpa omnis, porro saepe perferendis aperiam quidem recusandae dolores.

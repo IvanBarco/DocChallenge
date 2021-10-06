@@ -1,11 +1,14 @@
 @import '../var.scss';
+@media(min-width:1024px){
 .footer{
     background-color: $white-letters;
     background: $first-color;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
     width: 100%;
+    height: auto;
         &.footer h5{
             color: $white-letters;
         }
@@ -19,4 +22,60 @@
             align-items: center;
             justify-content: center;
         }
+    }}
+@media(max-width:768px){
+    .footer{
+        background-color: $white-letters;
+        background: $first-color;
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+            &.footer h5{
+                color: $white-letters;
+                margin-top: 5px;
+            }
+            &.footer_img{
+                background-position: relative;
+                margin-bottom: 5px;
+            }
+            &.footer a{
+                text-decoration: none;
+                color: $white-letters;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 5px;
+            }
+    }
+}
+@media(min-width:360px){
+    .footer{
+        background-color: $white-letters;
+        background: $first-color;
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+            &.footer h5{
+                color: $white-letters;
+                margin-top: 5px;
+            }
+            &.footer_img{
+                background-position: relative;
+                margin-bottom: 5px;
+            }
+            &.footer a{
+                text-decoration: none;
+                color: $white-letters;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 5px;
+            }
+    }
 }

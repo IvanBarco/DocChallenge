@@ -3,15 +3,17 @@
     background: $second-color;
     display: flex;
     justify-content: center;
-    padding: 2em;
+    padding: 1em;
     margin: auto;
-    width: 100vw;
-    &.main .card{
-        display: flex;
-        align-items: stretch;
-        flex-direction: row;
-    }
-    &.main .decoco{
-        margin: 2em;
-    }
+    width: auto;
+    height: auto;
+        &.main .card{
+            display: flex;
+            align-items: stretch;
+            flex-direction: row;
+            margin-left: 1em;
+        }
+        &.main .decoco{
+            margin-right: 1em;
+        }
 }

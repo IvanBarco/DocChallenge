@@ -17,4 +17,57 @@
         .paragraph{
             font-weight: bold;
         }
+        .decoco_img{
+            width: fit-content;
+        }}
+@media(max-width:768px){
+    .decoco{
+        background-color: $white-letters;
+        padding: 1rem;
+        margin: auto;
+            .decoco_foo{
+                width: 50%;
+                border: 1px solid rgb(36, 114, 240);
+                border-radius: .5em;
+                padding: .5rem;
+                margin: auto;
+            }
+            .paragraph{
+                font-weight: bold;
+                height:auto;
+                width: 600px;
+            }
+            .decoco_img{
+                width: 50vw;
+            }
+    }
+}
+@media(min-width:360px){
+    .decoco{
+        border-radius: 20px;
+        background-color: $white-letters;
+        padding: 1rem;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+            .decoco_foo{
+                width: 100%;
+                border: 1px solid rgb(36, 114, 240);
+                border-radius: 1em;
+                padding: .5rem;
+                margin: auto;
+            }
+            .paragraph{
+                font-weight: bold;
+                width: 90%;
+                height: auto;
+            }
+            .decoco_img{
+                background-image:
+                linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)) , 
+                url('https://res.cloudinary.com/docred/image/upload/t_feed/FDA_aprueba_tratamiento_para_ALZHEIMER_6c31532745.jpg');
+            }
+    }
 }

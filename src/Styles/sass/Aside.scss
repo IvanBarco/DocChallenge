@@ -11,5 +11,9 @@
             display: flex;
             row-gap: 2px;
             flex-direction: column;
-        }
+        }}
+@media(max-width:768px){
+    .aside{
+        display: none;
+    }
 }

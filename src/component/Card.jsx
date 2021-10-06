@@ -7,9 +7,9 @@ import { AiOutlineEye } from 'react-icons/ai';
 export function Card() {
     return (
         <div className='card'>
-                <div className='card_img'>
-                        <img className='img' src='https://res.cloudinary.com/docred/image/upload/t_feed/Imagen_de_portada_comprimida_8997198f09.jpg' alt='newsTheme' />
-                </div>
+            <figure>
+                <img className='img' src='https://res.cloudinary.com/docred/image/upload/t_feed/Imagen_de_portada_comprimida_8997198f09.jpg' alt='newsTheme'/>
+            </figure>
             <div className='card_info'>
                 <p><b>Lorem ipsum dolor <br /> Esse volutpad</b>
                     <br />By:lorem impsum Dolor.

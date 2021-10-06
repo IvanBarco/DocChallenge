@@ -6,10 +6,11 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 .App {
   text-align: left;
   box-sizing: border-box;
-  width: 100vw;
-  height: 100vh ;
+  width: auto;
+  height: auto;
 }

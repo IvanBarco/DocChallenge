@@ -49,5 +49,117 @@
     }
     .tags{
         margin-bottom: 3em;
+    }}
+@media(max-width:768px){
+    .docstorie{
+        height: auto;
+        width: 600px;
     }
+    .doc-title{
+        width: 300px;
+        display:block;
+        margin-bottom: 10px;
+    }
+    .doc-title button{
+        background-color:$thirt-color ;
+        border-radius: 1em 0 1em 0;
+        color:$white-letters;
+        height: 50px;
+        width: 100px;
+        font-weight: bold;
+    }
+    .doc-news{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .doc-tag1{
+        border-radius: 4px;
+        background-color: $gray;
+        color:$first-color;
+        font-weight: bold;
+        height: 90px;
+        width: 150px;
+        margin: 2em;
+    }
+    .doc-tag2{
+        border-radius: 4px;
+        background-color: $gray;
+        color:$first-color;
+        font-weight: bold;
+        height: 90px;
+        width: 150px;
+        margin: 2em;
+    }
+    .doc-tag3{
+        border-radius: 4px;
+        background-color: $gray;
+        color:$first-color;
+        font-weight: bold;
+        height: 90px;
+        width: 150px;
+        margin: 2em;
+    }
+    .tags{
+        margin-bottom: 3em;
+    }
+}
+@media(max-width:360px){
+    .docstorie{
+    width: 320px;
+    height: auto;
+    display: contents;
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+        .doc-title{
+            width: auto;
+            margin-bottom: 10px;
+        }
+        .doc-title button{
+            background-color:$thirt-color ;
+            border-radius: .5em;
+            color:$white-letters;
+            font-weight: bold;
+        }
+        .doc-news{
+            height: 100px;
+            width: 340px;
+        }
+        .doc-tag1{
+            border-radius: 4px;
+            background-color: $gray;
+            color:$first-color;
+            font-weight: bold;
+            height: 40px;
+            width: 80px;
+            margin: 2px;
+        }
+        .doc-tag2{
+            border-radius: 4px;
+            background-color: $gray;
+            color:$first-color;
+            font-weight: bold;
+            height: 20px;
+            width: 90px;
+            margin: 2px;
+        }
+        .doc-tag3{
+            border-radius: 4px;
+            background-color: $gray;
+            color:$first-color;
+            font-weight: bold;
+            height: 20px;
+            width: 110px;
+            margin: 2px;
+        }
+        .tags{
+            margin:10px;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+        }
+}   
 }
