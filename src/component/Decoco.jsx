@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/sass/Decoco.scss';
+import {Decocos} from '../asset/Decocos';
 import { BsStar } from 'react-icons/bs';
 import { BsChat } from 'react-icons/bs';
 import { BsArrowUpRight } from 'react-icons/bs';
